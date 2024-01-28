@@ -1,0 +1,124 @@
+.contact {
+    padding: 30px 20px;
+    background-color: #f5f5f511; 
+    z-index: 100;
+}
+
+.contact h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin-top: 20px; 
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-details img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-top: 10px;
+}
+
+.contact-details a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.contact-details a {
+    display: block; /* This makes the entire link a block, allowing padding/margin to be applied */
+    padding-bottom: 10px; /* Adjust the padding as needed */
+    text-decoration: none; /* Remove the default underline on links */
+}
+
+/* Style for the images inside the links */
+.contact-details img {
+    vertical-align: middle; /* Align the image vertically in the middle of the line */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.contact-details a:last-child {
+    margin-right: 0; /* Remove margin from the last element */
+}
+
+.contact-details img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+
+
+.query-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f511;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: flex-end;
+    margin-left: 600px;
+}
+
+.query-box h2 {
+    color: #333;
+}
+
+.query-box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust the width as needed */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.form-container input {
+    
+    margin-bottom: 10px;
+}
+
+
+label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #2980b9;
+}
